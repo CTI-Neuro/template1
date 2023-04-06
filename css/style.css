@@ -367,7 +367,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .block-center:hover .block-center-header {
-	background-color: #cef1ea;
+	background-color: #f7edeb;
 }
 
 .block-center-title {
@@ -382,7 +382,7 @@ a[href*='tel'], a[href*='mailto'] {
 		background-color: #ffffff;
 	}
 	.block-center-header {
-		background-color: #cef1ea;
+		background-color: #f7edeb;
 	}
 }
 
@@ -553,7 +553,7 @@ a[href*='tel'], a[href*='mailto'] {
 	display: inline-block;
 	width: 80px;
 	height: 2px;
-	background: #cef1ea;
+	background: #f7edeb;
 }
 
 * + .box-counter-title {
@@ -720,8 +720,8 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-classic .icon-classic svg > * {
-	color: #cef1ea;
-	fill: #cef1ea;
+	color: #f7edeb;
+	fill: #f7edeb;
 }
 
 .box-icon-classic .icon-classic-title {
@@ -1031,7 +1031,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-video-button .button-play:hover .icon {
-	color: #cef1ea;
+	color: #f7edeb;
 }
 
 .box-video-button .button-play:hover:before {
@@ -1100,7 +1100,7 @@ a[href*='tel'], a[href*='mailto'] {
 	content: '+';
 	right: 11px;
 	bottom: 7px;
-	color: #cef1ea;
+	color: #f7edeb;
 	font-size: 28px;
 	line-height: 28px;
 	z-index: 1;
@@ -1208,7 +1208,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .team-corporate-link a:hover {
-	color: #cef1ea;
+	color: #f7edeb;
 }
 
 .team-corporate-caption > * + * {
@@ -1263,7 +1263,7 @@ a[href*='tel'], a[href*='mailto'] {
 	bottom: 0;
 	right: 0;
 	background: #ffffff;
-	box-shadow: inset 0 -3px 0 0 #cef1ea;
+	box-shadow: inset 0 -3px 0 0 #f7edeb;
 	transition: all .7s;
 }
 
@@ -1684,7 +1684,7 @@ a[href*='tel'], a[href*='mailto'] {
 	top: -8px;
 	width: 140px;
 	height: 140px;
-	background: #cef1ea;
+	background: #a65369;
 	border-radius: 50%;
 }
 
@@ -1699,7 +1699,7 @@ a[href*='tel'], a[href*='mailto'] {
 	bottom: -2px;
 	width: 115px;
 	height: 115px;
-	background: #cef1ea;
+	background: #a65369;
 	border-radius: 50%;
 	z-index: 3;
 }
@@ -2262,7 +2262,7 @@ hr {
 	display: inline-block;
 	width: 60px;
 	height: 3px;
-	background-color: #cef1ea;
+	background-color: #a65369;
 }
 
 .divider-lg::after {
@@ -2270,7 +2270,7 @@ hr {
 	display: inline-block;
 	width: 90px;
 	height: 3px;
-	background-color: #cef1ea;
+	background-color: #a65369;
 }
 
 h1 .divider-lg {
@@ -2347,15 +2347,15 @@ h1 .divider-lg {
 }
 
 .button-primary, .button-primary:focus {
-	color: #151515;
-	background-color: #cef1ea;
-	border-color: #cef1ea;
+	color: #f7edeb;
+	background-color: #a65369;
+	border-color: #a65369;
 }
 
 .button-primary:hover, .button-primary:active {
 	color: #151515;
-	background-color: #b4e5db;
-	border-color: #b4e5db;
+	background-color: #f7edeb;
+	border-color: #f7edeb;
 }
 
 .button-primary.button-ujarak::before {
@@ -4419,12 +4419,12 @@ textarea.form-input {
 	left: 0;
 	width: 0;
 	height: 2px;
-	background: #cef1ea;
+	background: #a65369;
 	transition: all .3s;
 }
 
 .footer-minimal .rd-nav-link:hover {
-	color: #151515;
+	color: #a65369;
 }
 
 .footer-minimal .rd-nav-link:hover:before {
@@ -4432,7 +4432,7 @@ textarea.form-input {
 }
 
 .footer-minimal .active .rd-nav-link {
-	color: #151515;
+	color: #a65369;
 }
 
 .footer-minimal .active .rd-nav-link:before {
@@ -6162,8 +6162,8 @@ html:not(.lt-ie10) .not-animated {
 	height: 50px;
 	font-size: 20px;
 	line-height: 46px;
-	color: #ffffff;
-	background: #cef1ea;
+	color: #f7edeb;
+	background: #a65369;
 	overflow: hidden;
 	text-align: center;
 	text-decoration: none;
@@ -6280,7 +6280,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle span:after, .rd-navbar-toggle span:before, .rd-navbar-toggle span {
 	width: 24px;
 	height: 4px;
-	background-color: #151515;
+	background-color: #a65369;
 	backface-visibility: hidden;
 	border-radius: 0;
 }
@@ -6334,7 +6334,7 @@ html.tablet .ui-to-top {
 	height: 6px;
 	line-height: 6px;
 	text-align: center;
-	background: #151515;
+	background: #a65369;
 	left: 50%;
 	margin-left: -3px;
 	border-radius: 50%;
@@ -6396,7 +6396,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-search .rd-search-form-submit:hover {
-	color: #cef1ea;
+	color: #a65369;
 }
 
 .rd-navbar-search-toggle {
@@ -6431,7 +6431,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-nav-item.focus .rd-nav-link, .rd-navbar-static .rd-nav-item.opened .rd-nav-link {
-	color: #151515;
+	color: #a65369;
 	background: transparent;
 }
 
@@ -7221,13 +7221,13 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-nav-wrap {
 	color: #ffffff;
 	background: #ffffff;
-	border: 1px solid #eaeced;
+	border: 1px solid #ffffff;
 	box-shadow: none;
 }
 
 .rd-navbar-fixed .rd-nav-item:hover .rd-nav-link, .rd-navbar-fixed .rd-nav-item.focus .rd-nav-link, .rd-navbar-fixed .rd-nav-item.active .rd-nav-link, .rd-navbar-fixed .rd-nav-item.opened .rd-nav-link {
 	color: #ffffff;
-	background: #b4e5db;
+	background: #a65369;
 }
 
 .rd-navbar-fixed .rd-nav-item:hover > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-nav-item.opened > .rd-navbar-submenu-toggle {
@@ -7235,7 +7235,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-nav-link {
-	color: #151515;
+	color: #a65369;
 }
 
 .rd-navbar-fixed .rd-megamenu-list > li > a,
@@ -7851,7 +7851,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-aside-outer {
-	background: #151515;
+	background: #a65369;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-aside,
@@ -8318,7 +8318,7 @@ html.rd-navbar-fixed-linked .page {
 	height: 15px;
 	display: inline-block;
 	border-radius: 100%;
-	border: 2px solid #b7b7b7;
+	border: 2px solid #a65369;
 	background: transparent;
 	overflow: hidden;
 	transition: .2s;
@@ -8331,13 +8331,13 @@ html.rd-navbar-fixed-linked .page {
 	height: 150%;
 	top: -3px;
 	left: -3px;
-	background: #cef1ea;
+	background: #a65369;
 	transform: translateX(-200%);
 	transition: all .3s;
 }
 
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, .swiper-pagination .swiper-pagination-bullet:hover {
-	border-color: #cef1ea;
+	border-color: #a65369;
 }
 
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:before, .swiper-pagination .swiper-pagination-bullet:hover:before {
