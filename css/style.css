@@ -5440,7 +5440,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .bg-gray-100 {
-	background-color: #f6f9f9;
+	background-color: #f7edeb;
 }
 
 .bg-gray-100 + .bg-gray-100 {
@@ -14739,4 +14739,9 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 
 .dtp .right {
 	right: 20px;
+}
+
+/*botao nossa equipe*/
+#button-white:hover {
+	background-color: #fff;
 }
