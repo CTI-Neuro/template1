@@ -314,11 +314,11 @@ a, a:focus, a:active, a:hover {
 }
 
 a, a:focus, a:active {
-	color: #cef1ea;
+	color: #a65369;
 }
 
 a:hover {
-	color: #b4e5db;
+	color: #a65369;
 }
 
 a[href*='tel'], a[href*='mailto'] {
@@ -326,11 +326,11 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .link-hover {
-	color: #b4e5db;
+	color: #a65369;
 }
 
 .link-press {
-	color: #b4e5db;
+	color: #a65369;
 }
 
 .privacy-link {
@@ -2058,7 +2058,7 @@ p + .list-marked {
 }
 
 .contact-list .contact-list-content a:hover {
-	color: #cef1ea;
+	color: #a65369;
 }
 
 .contact-list * + .contact-list-content {
@@ -2099,7 +2099,7 @@ img {
 }
 
 .icon-primary {
-	color: #cef1ea;
+	color: #a65369;
 }
 
 .icon-circle {
@@ -4164,7 +4164,7 @@ textarea.form-input {
 }
 
 .breadcrumbs-custom-path a, .breadcrumbs-custom-path a:active, .breadcrumbs-custom-path a:focus {
-	color: #b4e5db;
+	color: #a65369;
 }
 
 .breadcrumbs-custom-path li {
