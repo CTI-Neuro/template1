@@ -985,7 +985,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-video .button-play:hover:before, .box-video .button-play:focus:before {
-	color: #cef1ea;
+	color: #A65369;
 }
 
 .box-video-button {
