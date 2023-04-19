@@ -4947,7 +4947,7 @@ h3 + img {
 }
 
 .section-xs-type-1 {
-	padding: 30px 0;
+	padding: 15px 0;
 }
 
 .section-sm,
@@ -7920,14 +7920,13 @@ html.rd-navbar-fixed-linked .page {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 20px 0;
+	padding: 5px 0;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
 	width: auto;
 	height: auto;
 	max-width: 140px;
-	max-height: 43px;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main-element {
@@ -14741,7 +14740,12 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	right: 20px;
 }
 
-/*botao nossa equipe*/
+/* botao nossa equipe */
 #button-white:hover {
 	background-color: #fff;
+}
+
+/* divisoria rosa no footer */
+.divisoria-rosa {
+	border-top: 1px solid #a65369;
 }
