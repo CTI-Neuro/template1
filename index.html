@@ -60,10 +60,10 @@
               </div>
             </div>
             <div class="rd-navbar-main-outer">
-              <div class="rd-navbar-main">
+              <div class="rd-navbar-main navHeader">
                 <!-- RD Navbar Panel-->
                 <div class="rd-navbar-panel">
-                  <!-- RD Navbar Toggle-->
+                  <!-- RD Navbar Toggle--> 
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
                   <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/logosemfundo-karolinnaferreira.png" alt="" width="257" height="84"/></a></div>
@@ -72,13 +72,20 @@
                   <div class="rd-navbar-nav-wrap">
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="">Home</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#home">Home</a>
                       </li>
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Quem somos</a>
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="#quem-somos">Quem somos</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">Serviços</a>
+                      <li class="rd-nav-item servicos">
+                        <a class="rd-nav-link" href="about-us.html">Serviços</a>
+                        <ul class="sub-lista">
+                          <li><a href="#">Fisioterapia</a></li>
+                          <li><a href="#">Terapia Ocupacional</a></li>
+                          <li><a href="#">Academia Terapêutica</a></li>
+                          <li><a href="#">Home Care</a></li>
+                        </ul>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="team.html">Equipe</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#equipe">Equipe</a>
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contato</a>
                       </li>
@@ -91,7 +98,7 @@
         </div>
       </header>
       <!-- Swiper-->
-      <section class="section swiper-container swiper-slider swiper-slider-1 slider-scale-effect" data-loop="false" data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
+      <section id="home" class="section swiper-container swiper-slider swiper-slider-1 slider-scale-effect" data-loop="false" data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
         <div class="swiper-wrapper">
           <div class="swiper-slide slide-bg-1">
             <div class="slide-bg swiper-white-filter" style="background-image: url(images/Home.JPG)"></div>
@@ -297,7 +304,7 @@
           </div>
         </div>
       </section>-->
-      <section class="section section-lg">
+      <section id="quem-somos" class="section section-lg">
         <div class="container">
           <div class="row row-xl-50">
             <div class="col-lg-6">
@@ -337,7 +344,54 @@
           </div>
         </div>
       </section>
-      
+      <section id="equipe" class="section section-lg bg-gray-100">
+        <div class="container">
+          <div class="row row-50 align-items-lg-center justify-content-xl-between">
+            <div class="row row-50 align-items-lg-center justify-content-xl-between">
+              <div class="col-lg-6 text-center">
+                <div class="block-parallax-element"><span class="prev-element" data-parallax-scroll="{&quot;y&quot;: -30, &quot;x&quot;: 0,  &quot;smoothness&quot;: 50 }"></span><img src="images/home-1-378x463.jpg" alt="" width="378" height="463"/><span class="next-element" data-parallax-scroll="{&quot;y&quot;: 30, &quot;x&quot;: 0,  &quot;smoothness&quot;: 50 }"></span>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-5">
+                <h2 class="heading-decorate">Equipe<br><span class="divider"></span>
+                </h2>
+                <p class="big text-gray-800"></p>
+                <p class="text-spacing-60"></p><!--<a class="button button-primary" href="#">learn more</a>-->
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-5">
+                <h2 class="heading-decorate">Karolinna<br><span class="divider"></span>Ferreira Lopes
+                </h2>
+                <p class="big text-gray-800">É Sócia-diretora do Núcleo Karolinna Ferreira Lopes e Fisioterapeuta graduada pela Faculdade In-tegrada do Recife, com formações em Conceito Bobath adulto e infantil avançados e Aprendizagem Motora e Reabilitação da Marcha em paciente com disfunção neurológica. Já atendeu mais de 300 pacientes ao longo desses 14 anos de experiência na área de Fisioterapia.</p>
+                <p class="text-spacing-60"></p>
+            </div>
+            <div class="col-lg-6 col-xl-5">
+              <h2 class="heading-decorate">Nauane<br><span class="divider"></span>Lima
+              </h2>
+              <p class="big text-gray-800">Fisioterapeuta graduada pela Faculdade Pernambucana de Saúde (FPS) em 2017 e Pós Graduada em UTI Neonatal e Pediátrica pela Interfisio. Formação complementar em Reabilitação Neurofuncional na Paralisia Cerebral.</p>
+              <p class="text-spacing-60"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-lg bg-gray-100">
+        <div class="container">
+          <div class="row row-50 align-items-lg-center justify-content-xl-between">
+            <div class="col-lg-6 col-xl-5">
+                <h2 class="heading-decorate">Alessandra<br><span class="divider"></span>Chagas
+                </h2>
+                <p class="big text-gray-800">Fisioterapeuta graduada pela Faculdade Pernambucana de Saúde (FPS) em 2017 e mestre em Fisiot-erapia pela Universidade Federal de Pernambuco (UFPE). Tem formação complementar em Terapia Manual e em Facilitação Neuromuscular Proprioceptiva pela IPNFA. Desenvolve pesquisa no La-boratório de Aprendizado e Controle Motor (LACOM - UFPE) e no Ambulatório de Neurocirurgia de Nervos Periféricos do Hospital da Restauração de Pernambuco na linha de pesquisa de lesões de nervos periféricos.</p>
+                <p class="text-spacing-60"></p>
+            </div>
+            <div class="col-lg-6 col-xl-5">
+              <h2 class="heading-decorate">Marcela<br><span class="divider"></span>Medeiros
+              </h2>
+              <p class="big text-gray-800">É Terapeuta Ocupacional formada pela Universidade Federal de Pernambuco (UFPE) e especializa-da em Contextos Hospitalares/Cuidados Paliativos pela Universidade de Pernambuco - Hospital Universitário Oswaldo Cruz (HUOC/UPE) na modalidade de residência multiprofissional em saúde. Tem formação complementar internacional em Reabilitação Neuropsicológica, além dos cursos de avaliação cognitivo-funcional em Terapia Ocupacional, de Reabilitação cognitiva do idoso e do Pro-grama Personalizado de Atividades (TAP-Br).</p>
+              <p class="text-spacing-60"></p>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Page Footer-->
       <section class="section"></section>
       <!--Please, add the data attribute data-key="YOUR_API_KEY" in order to insert your own API key for the Google map.-->
@@ -359,10 +413,10 @@
             <div class="col-lg-10">
               <div class="footer-nav">
                 <ul class="rd-navbar-nav">
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="">Home</a></li>
-                  <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Quem somos</a></li>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="#home">Home</a></li>
+                  <li class="rd-nav-item active"><a class="rd-nav-link" href="#quem-somos">Quem somos</a></li>
                   <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">Serviços</a></li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="team.html">Equipe</a></li>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="#equipe">Equipe</a></li>
                   <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contato</a></li>
                 </ul>
               </div>
