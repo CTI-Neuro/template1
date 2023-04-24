@@ -6246,13 +6246,13 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-toggle {
-	display: inline-block;
+	/*display: inline-block;*/
 	position: relative;
 	width: 48px;
 	height: 48px;
 	line-height: 48px;
 	cursor: pointer;
-	color: #151515;
+	color: #a65369;
 	background-color: transparent;
 	border: none;
 	display: none;
@@ -6266,7 +6266,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-toggle span:after, .rd-navbar-toggle span:before {
-	content: "";
+	/*content: "";*/
 	position: absolute;
 	left: 0;
 	top: -8px;
@@ -6278,15 +6278,18 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-toggle span:after, .rd-navbar-toggle span:before, .rd-navbar-toggle span {
-	width: 24px;
+	/*width: 24px;
 	height: 4px;
 	background-color: #a65369;
 	backface-visibility: hidden;
-	border-radius: 0;
+	border-radius: 0;*/
+	color: #a65369;
+	font-family: "Playfair Display", "Times New Roman", Times, serif;
+	font-weight: bold;
 }
 
 .rd-navbar-toggle span {
-	transform: rotate(180deg);
+	transform: rotate(0deg);  /* rotação anterior era 180 graus*/
 }
 
 .rd-navbar-toggle span:before, .rd-navbar-toggle span:after {
@@ -6836,7 +6839,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-navbar-brand img {
 	max-width: 140px;
-	max-height: 43px;
+	max-height: 50px;
 	width: auto;
 	height: auto;
 }
@@ -14741,7 +14744,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	right: 20px;
 }
 
-/* botao nossa equipe */
+/* botao branco */
 #button-white:hover {
 	background-color: #fff;
 }
@@ -14751,7 +14754,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	border-top: 1px solid #a65369;
 }
 
-/* sub menu */
+/* menu servicos dropdown */
 header .rd-navbar-nav {
     list-style: none;
 }
@@ -14766,7 +14769,6 @@ header .rd-navbar-nav .servicos .sub-lista li a {
     display: block;
 }
 
-/* aqui */
 header .rd-navbar-nav .servicos ul {
 	display: none;
 	flex-direction: column;
@@ -14805,7 +14807,26 @@ html {
 	scroll-behavior: smooth;
 }
 
-.navHeader{
+/* ajuste no nav */
+/* .navHeader{
 	height: 83px;
 	padding: 0!important;
+} */
+
+@media(max-width:991px){
+
+
+    header .rd-navbar-nav .servicos ul {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: ;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        display: none;
+    }
+
+    header .rd-navbar-nav .servicos ul li {
+        width: 100%;
+    }
+
+
 }
