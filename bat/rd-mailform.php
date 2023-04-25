@@ -1,3 +1,4 @@
+
 <?php
 
 $formConfigFile = file_get_contents("rd-mailform.config.json");
@@ -144,3 +145,4 @@ try {
 } catch (Exception $e) {
     die('MF255');
 }
+

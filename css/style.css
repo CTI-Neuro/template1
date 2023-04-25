@@ -247,6 +247,7 @@ mark,
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
+	color: #a65369;
 }
 
 code {
@@ -14819,7 +14820,7 @@ html {
     header .rd-navbar-nav .servicos ul {
         position: absolute;
         top: 100%; left: 0; right: 0;
-        background: ;
+        background: #f7edeb;
         border-top: 1px solid rgba(0, 0, 0, .1);
         display: none;
     }
